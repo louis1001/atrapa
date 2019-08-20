@@ -36,7 +36,7 @@ function restart(){
 	gameSpeed = 25
 	lastRestart = 0
 
-	createCanvas(600, 700)
+	createCanvas(min(600, windowWidth), min(700, windowHeight))
 	theBall = new Ball(width/2, height - 200, 20)
 
 	mouseX = width/2
